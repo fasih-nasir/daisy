@@ -2,8 +2,13 @@
 body{
   font-family: "Montserrat", sans-serif !important;
 }input {
+  color: black !important;
   font-family: "Montserrat", sans-serif !important;
 
+}
+input::placeholder {
+  color: rgb(38, 38, 38) !important;
+ 
 }
 .ff {
   border-radius: 2px !important;
@@ -30,7 +35,7 @@ position: relative;
 }
 .bottom_div>span{
   margin: 5px 0px;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
 border-radius: 5% !important;
   padding:10px 5px;
