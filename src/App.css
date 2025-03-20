@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  font-family: "Montserrat", sans-serif !important;
+}input {
+  font-family: "Montserrat", sans-serif !important;
+
+}
+.ff {
+  border-radius: 2px !important;
+  font-family: "Montserrat", sans-serif !important;
+background-color: rgb(49, 49, 49);
+}
+.bg_c{
+  object-fit: cover;
+height: 100%;
+position: relative;
+  width: 100%;
+  border-radius: 2%;
+  background-size: cover;
+  background-image: url("/src/assets/chapters_partnership_banner.png");
+}
+.container-fluid{
+  height: 100vh ;
+
+  padding: 1% ;
+}
+.bottom_div{
+  bottom: 0%;
+  position: absolute;
+}
+.bottom_div>span{
+  margin: 5px 0px;
+  font-size: 13px;
+  font-weight: 500;
+border-radius: 5% !important;
+  padding:10px 5px;
+  backdrop-filter: blur(20px);
+  background-color: rgba(255, 255, 255, 0.092);
+}
